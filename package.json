@@ -1,0 +1,33 @@
+{
+  "name": "aurorascriptevaluator",
+  "version": "1.0.0",
+  "description": "unsafeなJavaScriptを実行します。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waki285/AuroraJavaScriptEvaluator.git"
+  },
+  "keywords": [
+    "runjs"
+  ],
+  "author": "waki285",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waki285/AuroraJavaScriptEvaluator/issues"
+  },
+  "homepage": "https://github.com/waki285/AuroraJavaScriptEvaluator#readme",
+  "devDependencies": {
+    "@types/node": "^16.7.10",
+    "@types/workerpool": "^6.1.0",
+    "node": "^16.6.1",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "vm2": "^3.9.3",
+    "workerpool": "^6.1.5"
+  }
+}
