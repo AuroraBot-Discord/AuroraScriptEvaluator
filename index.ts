@@ -16,7 +16,7 @@ const worker = pool(join(__dirname, "./worker.js"), {
   workerType: "process"
 })
 
-const client: Client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
+const client: Client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES], allowedMentions: { parse: [] } });
 const prefix: string = "^";
 
 const deleteButton: MessageButton = new MessageButton()
